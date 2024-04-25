@@ -1,0 +1,10 @@
+<header>
+    <nav>
+        <div class="row">
+            <div *ngFor="let enlace of links" class="col enlace-menu text-center p-4 text-bg-dark"
+                (click)="navigateTo(enlace)">
+                <span>{{ enlace }}</span>
+            </div>
+        </div>
+    </nav>
+</header>
