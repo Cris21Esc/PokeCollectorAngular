@@ -14,6 +14,7 @@ export class LoginComponent {
   login() {
     /* Implementar validacion formulario */
     this.authService.login();
+    console.log(sessionStorage.getItem('user'));
     console.log("loggeo");
   }
 }

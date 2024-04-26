@@ -1,12 +1,14 @@
-<div>
-  <div>
-    <label for="username">Username:</label>
-    <input type="text" name="username" id="username"/>
+<div class="row justify-content-center align-content-center">
+  <div class="col-lg-6 p-4">
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username"/>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password"/>
+    </div>
+    <!-- login.component.html -->
+    <button class="btn" (click)="login()">Iniciar sesión</button>
   </div>
-  <div>
-    <label for="password">Password:</label>
-    <input type="password" name="password" id="password"/>
-  </div>
-  <!-- login.component.html -->
-  <button class="btn" (click)="login()">Iniciar sesión</button>
 </div>

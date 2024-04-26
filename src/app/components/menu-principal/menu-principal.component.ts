@@ -35,7 +35,7 @@ export class MenuPrincipalComponent implements OnInit {
   // Método para actualizar los enlaces dependiendo del estado de inicio de sesión
   updateLinks() {
     if (this.isLoggedIn) {
-      this.links = ['inicio', 'listar', 'pokedex']; // Menús cuando el usuario está conectado
+      this.links = ['inicio', 'pokedex']; // Menús cuando el usuario está conectado
     } else {
       this.links = ['inicio', 'login']; // Menús cuando el usuario no está conectado
     }

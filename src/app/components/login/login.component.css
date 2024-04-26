@@ -15,7 +15,7 @@ input[type="password"] {
 }
 
 /* Estilo para el botón de enviar */
-button[type="submit"] {
+button {
   background-color: #4caf50;
   color: white;
   padding: 12px 20px;
