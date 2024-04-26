@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AxiosService } from '../services/axios/axios.service';
+import { AxiosService } from '../../services/axios/axios.service';
 
 @Component({
   selector: 'app-pokedex',

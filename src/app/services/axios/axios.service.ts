@@ -14,10 +14,6 @@ export class AxiosService {
     return axios.get(url, { params: { username: username } });
   }
 
-  // Método para realizar una solicitud POST
-  post(url: string, data: any) {
-    return axios.post(url, data);
-  }
 
   // Agrega otros métodos según sea necesario, como PUT, DELETE, etc.
 }
