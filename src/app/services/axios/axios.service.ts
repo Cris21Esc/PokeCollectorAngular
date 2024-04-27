@@ -10,7 +10,7 @@ export class AxiosService {
 
   // Método para realizar una solicitud GET
   getAll(username: string) {
-    const url = 'http://localhost:8085/'; // Especifica la URL completa del endpoint
+    const url = 'http://192.168.1.29:8080/'; // Especifica la URL completa del endpoint
     return axios.get(url, { params: { username: username } });
   }
 

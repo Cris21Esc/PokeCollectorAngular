@@ -8,7 +8,7 @@ export class AuthService {
   private isLoggedInSubject: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
 
   constructor() {
-    if (sessionStorage.getItem('user')!=null && sessionStorage.getItem('user')!="") {
+    if (sessionStorage.getItem('user')!=null) {
       this.isLoggedInSubject.next(true);
     }
   }

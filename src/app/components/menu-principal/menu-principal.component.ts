@@ -28,6 +28,7 @@ export class MenuPrincipalComponent implements OnInit {
     this.authService.logout();
     this.authService.isAuthenticated().subscribe(isLoggedIn => {
       this.isLoggedIn = isLoggedIn;
+      this.router.navigate(['/inicio']);
       this.updateLinks();
     });
   }
